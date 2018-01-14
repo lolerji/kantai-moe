@@ -1,0 +1,70 @@
+.parallax-img {
+    background-image: url('../../assets/img/yamato-hotel.png');
+    background-position: center left 20% !important;
+    border: none !important;
+}
+
+.opacity {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../../assets/img/yamato-hotel.png');
+    background-position: center right 20% !important;
+    border: none !important;
+}
+
+.vertical {
+    -webkit-box-orient: vertical !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+}
+
+.portfolio {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    flex-wrap: wrap !important;
+
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    justify-content: space-around;
+
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+}
+
+.center {
+    text-align: center;
+}
+
+.item {
+    -webkit-flex: 1 1 1;
+    -ms-flex: 1 1 1;
+    flex: 1 1 1;
+
+    width: 20%;
+
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+
+    margin: 0.5em;
+}
+.item:hover {
+    filter: grayscale(0.75);
+}
+
+.item-img {
+    width: 100%;
+    height: auto;
+    
+    border-radius: 0.2em;
+    background-color: #aaa;
+    cursor: pointer;
+}
+
+.show-hover {
+    display: none;
+}
+.show-hover:hover {
+    display: unset;
+}

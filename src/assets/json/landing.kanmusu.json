@@ -1,0 +1,46 @@
+{ 
+    "landing": [
+        {
+            "id": 1,
+            "name": "Iowa",
+            "img": "Iowa.png",
+            "shipClass": "Iowa",
+            "shipType": 8
+        },
+        {
+            "id": 2,
+            "name": "Yamato",
+            "img": "Yamato.png",
+            "shipClass": "Yamato",
+            "shipType": 8
+        },
+        {
+            "id": 3,
+            "name": "Shoukaku",
+            "img": "Shoukaku.png",
+            "shipClass": "Shoukaku",
+            "shipType": 5
+        },
+        {
+            "id": 4,
+            "name": "Yuudachi",
+            "img": "Yuudachi.png",
+            "shipClass": "Shiratsuyu",
+            "shipType": 1
+        },
+        {
+            "id": 5,
+            "name": "Atago",
+            "img": "Atago.png",
+            "shipClass": "Takao",
+            "shipType": 3
+        },
+        {
+            "id": 6,
+            "name": "Kongou",
+            "img": "Kongou.png",
+            "shipClass": "Kongou",
+            "shipType": 8
+        }
+        ]
+}
