@@ -1,0 +1,55 @@
+.left-content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+
+    -ms-flex-pack: start;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    text-align: left;
+
+    max-height: 500px;
+    height: 100%;
+}
+
+.right-content {
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    
+    -ms-flex-pack: start;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.color {
+    background-color: #FCFBF7 !important;
+}
+
+@media only screen and (max-width: 1024px) {
+    .left-content {
+        display: none;
+    }
+
+    .right-content {
+        text-align: center;
+    }
+    
+    .font-dark {
+        color: #bbb;
+    }
+    .font-darker {
+        color: #ddd;
+    }
+    .font-darkest {
+        color: #fff;
+    }
+
+    .section {
+        background-image: linear-gradient(to bottom, #4B1F0F, #4B1F0F), url('../../assets/img/kongou-pouting.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-blend-mode: multiply;
+    }
+}

@@ -1,0 +1,11 @@
+<div class="section vertical parallax parallax-img opacity">
+    <div class="center">
+        <h1 class="font-large font-darkest">Choose Your Shipgirl</h1>
+        <p class="font-normal font-dark">Have no idea? Fear not, here are some of the best...</p>
+    </div>
+    <div class="portfolio">
+        <div *ngFor="let kanmusu of metadata" class="item">
+            <img class="item-img" src="{{ kanmusu.img }}">
+        </div>
+    </div>
+</div>

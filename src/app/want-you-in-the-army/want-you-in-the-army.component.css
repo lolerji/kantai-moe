@@ -1,0 +1,56 @@
+.left-content {
+    -webkit-box-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+
+    -ms-flex-pack: end;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    text-align: right;
+
+    max-height: 500px;
+    height: 100%;
+}
+
+.right-content {
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    
+    -ms-flex-pack: start;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.color {
+    background-color: #FDFCFB !important;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .right-content {
+        display: none;
+    }
+
+    .left-content {
+        text-align: center;
+    }
+    
+    .font-dark {
+        color: #bbb;
+    }
+    .font-darker {
+        color: #ddd;
+    }
+    .font-darkest {
+        color: #fff;
+    }
+
+    .section {
+        background-image: linear-gradient(to bottom, #4B1F0F, #4B1F0F), url('../../assets/img/iowa-wants-you.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-blend-mode: multiply;
+    }
+}
